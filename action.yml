@@ -1,0 +1,6 @@
+name: arm-runner
+description: "Starts an arm runner ec2 instance and stops it at the end of a workflow."
+runs:
+  using: "node16"
+  main: "start-arm-runner.js"
+  post: "stop-arm-runner.js"

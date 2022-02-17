@@ -1,0 +1,24 @@
+{
+  "name": "sw_arm-runner-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q3DSW/sw_arm-runner-action.git"
+  },
+  "author": "Patrick Hallek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Q3DSW/sw_arm-runner-action/issues"
+  },
+  "homepage": "https://github.com/Q3DSW/sw_arm-runner-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "aws-sdk": "^2.1075.0"
+  }
+}
